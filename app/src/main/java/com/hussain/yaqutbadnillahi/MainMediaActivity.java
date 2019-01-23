@@ -233,14 +233,14 @@ public class MainMediaActivity extends AppCompatActivity {
         super.onRestart();
 
 
-        mp.pause();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
         mp.start();
     }
+
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        mp.start();
+//    }
 
     @Override
     protected void onDestroy() {
